@@ -6,8 +6,9 @@ import Navbar from "./Navbar";
 //CSS Styles
 
 const useStyles= makeStyles(theme=>({
+    
     mainContainer:{
-        background:"#233"
+        background:"#2D1E2F"
     },
     timeLine: {
         position:"relative",
@@ -118,71 +119,67 @@ const Resume = () => {
        <Navbar/>
        <Box component="header" className={classes.mainContainer}>
            <Typography variant="h4" align="center"className={classes.heading}>
-               Working experience and Voluntering
+               Working experience and Volunteering
            </Typography>
            <Box component="div"  className={classes.timeLine}>
                <Typography variant ="h2" className={`${classes.timeLineItem} ${classes.timeLineYear}`}>
-                   2019
+                   2021
                 </Typography>
                 <Box component="div" className={classes.timeLineItem}>
                     <Typography variant="h5" aligh="center" className={classes.subHeading}>
-                        CSIE
+                        SiSC
                     </Typography>
                     <Typography variant="body1" aligh="center" style={{color:"tomato"}}>
-                            SiSC
+                            Tap That Job - Ubisoft Practice
                     </Typography>
                     <Typography variant="subtile1" aligh="center" style={{color:"tan"}}>
-                    I would like to join Hubgets because it offers me the opportunity
-                     to develop myself with the skills I will acquire via internship.
-                      And I like that, after the first glimpse, Hubgets it seems a friendly environment where you can push your limits and together with your team, you can get closer to your goals.
+                        Via this experince I've learned the basiscs of React and how to use it, I gather more information about how cloud works and the devops responsabilities and how make use of API's.
                     </Typography>
                     </Box>
                     <Typography variant ="h2" className={`${classes.timeLineItem} ${classes.timeLineYear}`}>
-                   2019
+                   2020
                 </Typography>
                 <Box component="div" className={classes.timeLineItem}>
                     <Typography variant="h5" aligh="center" className={classes.subHeading}>
                         CSIE
                     </Typography>
                     <Typography variant="body1" aligh="center" style={{color:"tomato"}}>
-                            SiSC
+                        Database and OOP
                     </Typography>
                     <Typography variant="subtile1" aligh="center" style={{color:"tan"}}>
-                    I would like to join Hubgets because it offers me the opportunity
-                     to develop myself with the skills I will acquire via internship.
-                      And I like that, after the first glimpse, Hubgets it seems a friendly environment where you can push your limits and together with your team, you can get closer to your goals.
+                        I've learned about the concepts of OOP and what's the logical view behind the code and at Database I've learned how to structure and implement a database with well defined and structered tables.
+                    
+                        
                     </Typography>
                     </Box>
                     <Typography variant ="h2" className={`${classes.timeLineItem} ${classes.timeLineYear}`}>
-                   2019
+                   2020
                 </Typography>
                 <Box component="div" className={classes.timeLineItem}>
                     <Typography variant="h5" aligh="center" className={classes.subHeading}>
-                        CSIE
+                        SiSC
                     </Typography>
                     <Typography variant="body1" aligh="center" style={{color:"tomato"}}>
-                            SiSC
+                        IT - DevOps Team
                     </Typography>
                     <Typography variant="subtile1" aligh="center" style={{color:"tan"}}>
-                    I would like to join Hubgets because it offers me the opportunity
-                     to develop myself with the skills I will acquire via internship.
-                      And I like that, after the first glimpse, Hubgets it seems a friendly environment where you can push your limits and together with your team, you can get closer to your goals.
+                        After some trainings about linux and nginx, I had been given a challenge where I had to make a script where I would run my server on a Google Cloud Virtual Machine where I had to deploy a static website and an application.
                     </Typography>
                     </Box>
                     <Typography variant ="h2" className={`${classes.timeLineItem} ${classes.timeLineYear}`}>
-                   2019
+                   2019-2020
                 </Typography>
                 <Box component="div" className={classes.timeLineItem}>
                     <Typography variant="h5" aligh="center" className={classes.subHeading}>
-                        CSIE
+                        SiSC
                     </Typography>
                     <Typography variant="body1" aligh="center" style={{color:"tomato"}}>
-                            SiSC
+                        SiSC Projects
                     </Typography>
                     <Typography variant="subtile1" aligh="center" style={{color:"tan"}}>
-                    I would like to join Hubgets because it offers me the opportunity
-                     to develop myself with the skills I will acquire via internship.
-                      And I like that, after the first glimpse, Hubgets it seems a friendly environment where you can push your limits and together with your team, you can get closer to your goals.
+                        When I enrolled the SiSC ONG, I started to learn how to work inside of a team a member, how and when to make the right calls and that there's no wrong ideea.
+                        After that, I began to explore more the of the leadership position and how to coordinate your team to get the best result at final of the project while you mantain
+                        a friendly enviorement for your members to work.
                     </Typography>
                     </Box>
            </Box>

@@ -3,6 +3,8 @@ import {makeStyles} from '@material-ui/core/styles';
 import { Typography, Avatar, Grid, Box} from '@material-ui/core';
 import avatar from "../avatar.png";
 import Typed from"react-typed";
+import GitUser from "../containers/GitUser";
+import GitIcon from "../containers/GitIcon";
 
 //CSS Styles
 const useStyles = makeStyles(theme =>({
@@ -12,10 +14,10 @@ const useStyles = makeStyles(theme =>({
         margin: theme.spacing(1)
     },
     title:{
-        color:"tomato"
+        color:"#72195A"
     },
     subtitle:{
-        color:"tan",
+        color:"#C6D8FF",
         marginBottom: "3rem"
     },
     typedContainer:{
@@ -36,7 +38,7 @@ const classes = useStyles()
     return (
         <Box className={classes.typedContainer}>
             <Grid container justify="center">
-                <Avatar className={classes.avatar} src={avatar} alt="Russel Crowe"/>
+                <GitIcon/>
             </Grid>
             
             <Typography className={classes.title}  variant="h4">

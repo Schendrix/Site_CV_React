@@ -26,17 +26,16 @@ const Home = () => {
              params={{
                 particles:{
                     number:{
-                        value:45,
+                        value:25,
                         density:{
                             enabled: true,
                             value_area:900
                         }
                     },
                     shape:{
-                        type:"circle",
+                        type:"square",
                         stroke:{
-                            width:1,
-                            color:"tomato"
+                            width:1
                         }
                     },
                     size:{
